@@ -16,16 +16,6 @@ class termInEachYear(models.Model):
 #table many2one term
 class ScoreForSubjects(models.Model):
     _name = "school.score_subject"
-	
-    @api.model
-    def create(self, vals):
-        for record in self:
-            if record.sub_english == "0":
-                vals["sub_english"]="F"
-                pass
-            pass
-
-        return super(ScoreForSubjects,self).create(vals)
 
     term = fields.Selection([('first_term', 'First Term'),
                              ('second_term', 'Second Term'),
