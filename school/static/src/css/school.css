@@ -1,0 +1,41 @@
+@charset "utf-8";
+
+.openerp .oe_form table.oe_form_school tr th {
+    font-weight:bold;
+    background-color:#eeeeee;
+    align:middle;
+}
+.openerp .oe_form .oe_sheet table.oe_form_school tr {
+    height: 100px;
+    background-color:#eeeeee;
+}
+
+.openerp .oe_form table.oe_form_school tr td.oe_timesheet_grey {
+
+  background-color:#eeeeee;
+
+}
+
+
+.openerp .oe_form .oe_sheet table.oe_form_school tr td, .openerp .oe_form table tr th {
+  vertical-align: middle;
+  background-color:red;
+
+}
+.openerp .oe_form .oe_sheet table.oe_form_school tr td .oe_form_field_float, .openerp .oe_form table.oe_form_school tr th .oe_form_field_float {
+  float: right;
+  width: auto !important;
+  background-color:red;
+}
+
+.openerp .oe_form  table.oe_form_school tr td.oe_timesheet_action {
+  width: 250px;
+  padding-left: 7px;
+  background-color:red;
+
+}
+.openerp .oe_form .oe_sheet table.oe_form_school th {
+  text-align: right;
+
+}
+
